@@ -10,7 +10,7 @@ const Game = () => {
     const [winner, setWinner] = useState(null); // Add this line
 
     useEffect(() => {
-        const socket = new WebSocket('ws://localhost:8080');
+        const socket = new WebSocket('ws://https://rishitha-chowdary-cherukuri-21bce7023.onrender.com');
 
         socket.onopen = () => {
             console.log('Connected to server');

@@ -6,7 +6,7 @@ const WebSocketClient = () => {
     const [error, setError] = useState(null);
 
     useEffect(() => {
-        const socket = new WebSocket('ws://localhost:8080');
+        const socket = new WebSocket('ws://https://rishitha-chowdary-cherukuri-21bce7023.onrender.com');
 
         socket.onopen = () => {
             console.log('Connected to server');
